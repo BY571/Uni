@@ -5,7 +5,7 @@ In this Repository I store a few of my programms that I wrote for the university
 [image2]: ./Imgs/Gleichstrommaschinen.png 
 [image3]: ./Imgs/Gleichstrommaschinen1.png "circuit1"
 [image4]: ./Imgs/Kreisdiagramm.png "circuit2"
-[image5]: ./Imgs/Screenshot_from_2018-11-29_22-38-58.png 
+[image5]: ./Imgs/Screenshot from 2018-11-29 22-38-58.png 
 [image6]: ./Imgs/placeholder_small.png "Normal Image"
 [image7]: ./Imgs/placeholder_small.png "Flipped Image"
 
