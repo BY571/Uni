@@ -1,7 +1,7 @@
 # Uni
 In this Repository I store a few of my programms that I wrote for the university to review gathered data, evaluate the data, calculations of different tasks et cetera:
 
-(Optimization-Problem :)[https://github.com/BY571/Dynamic-Programming-and-Optimization-Problems]
+[Optimization-Problem ](https://github.com/BY571/Dynamic-Programming-and-Optimization-Problems)
 
 [image1]: ./Imgs/Belastungsversuch.png 
 [image2]: ./Imgs/Gleichstrommaschinen.png 
