@@ -8,8 +8,8 @@ In this Repository I store a few of my programms that I wrote for the university
 [image3]: ./Imgs/Gleichstrommaschinen1.png "circuit1"
 [image4]: ./Imgs/Kreisdiagramm.png "circuit2"
 [image5]: ./Imgs/Screenshot.png 
-[image6]: ./Imgs/EMS.png "Normal Image"
-[image7]: ./Imgs/eq.png "Flipped Image"
+[image6]: ./Imgs/ESM.png "Normal Image"
+[image7]: ./Imgs/Eq.png "Flipped Image"
 
 
 
@@ -31,13 +31,13 @@ In this Repository I store a few of my programms that I wrote for the university
 ### Function Summenformel
 You give that function a chemical formula like CH4 and the output of the funtion is the count of each element in that formula based on C, H and O elements.
 For Example:
-CH4 --> [1 4 0]
-O2 --> [0 0 2]
-C2H6 --> [2 6 0]
-H2O --> [0 2 1]
-C5H12 --> [5 12 0]
-CH3OH --> [1 4 1]
-HCOOH --> [1 2 2]
+CH4 --> [1 4 0]  
+O2 --> [0 0 2]  
+C2H6 --> [2 6 0]  
+H2O --> [0 2 1]  
+C5H12 --> [5 12 0]  
+CH3OH --> [1 4 1]  
+HCOOH --> [1 2 2]  
 
 ### Element Species Matrix
 Here you give the function 'formel2esm' a chemical reaction equation and it returns the element specific matrix of that equation.
