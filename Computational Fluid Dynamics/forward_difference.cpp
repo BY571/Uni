@@ -21,7 +21,7 @@ int main(int argc, char** argv){
     float array_[len]; 
     float array_xi[len];
     //cout << (xend-xstart)/step << endl;
-    string filename = "data_ue6.csv";
+    string filename = "Gaussian.csv";
     ofstream myfile;
     myfile.open (filename);
     for (int i = 0; i<len; i++){
@@ -36,14 +36,14 @@ int main(int argc, char** argv){
         
     }
     myfile.close();
-    string command = "python plotting.py -d data_ue6 -t .csv";
+    string command = "python plotting.py -d Gaussian -t .csv";
     system(command.c_str());
 
-    // calculating the first deriviative with the forward difference
+    // calculating the first derivative with the forward difference
     float dx = 0.5;
     float dy_array[len];
     float gradients[len];
-    filename = "Gradientplot.csv";
+    filename = "First_Derivative.csv";
     ofstream myfile1;
     myfile1.open(filename);
 
@@ -56,15 +56,15 @@ int main(int argc, char** argv){
         myfile1 << array_xi[i]<<","<< gradients[i]<<",\n";
         }
     myfile1.close();
-    command = "python plotting.py -d Gradientplot -t .csv";
+    command = "python plotting.py -d First_Derivative -t .csv";
     system(command.c_str());
 
 
-        // calculating the second deriviative with the forward difference
+        // calculating the second derivative with the forward difference
     float dy_array_2[len];
     float gradients_2[len];
 
-    filename = "Second_Deriviative.csv";
+    filename = "Second_Derivative.csv";
     ofstream myfile2;
     myfile2.open(filename);
     for (int i = 0; i<len; i++){
@@ -76,7 +76,7 @@ int main(int argc, char** argv){
         
     }
     myfile2.close();
-    command = "python plotting.py -d Second_Deriviative -t .csv";
+    command = "python plotting.py -d Second_Derivative -t .csv";
     system(command.c_str());
 
 
