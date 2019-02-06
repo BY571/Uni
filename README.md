@@ -14,6 +14,7 @@ In this Repository I store a few of my programms that I wrote for the university
 [image9]: ./Imgs/Gaussian_plot.png
 [image10]: ./Imgs/Gradient_plot.png
 [image11]: ./Imgs/Second_derivative.png
+[image12]: ./Imgs/Integral.png
 
 
 
@@ -44,6 +45,10 @@ For Example:
 ![alt text][image7]
 and it returns:
 ![alt text][image6]
+### Integrate any Function C++
+Sums the rectangles under the function to calculate the integral / area by any choosen step size.
+![alt text][image12]
+
 
 ### Numerical Calculation of Forward Differences C++
 - Calculating and Plotting a Gaussian Function
