@@ -11,6 +11,9 @@ In this Repository I store a few of my programms that I wrote for the university
 [image6]: ./Imgs/ESM.png "Normal Image"
 [image7]: ./Imgs/Eq.png "Flipped Image"
 [image8]:  ./Imgs/random_color.png
+[image9]: ./Imgs/Gaussian_plot.png
+[image10]: ./Imgs/Gradient_plot.png
+[image11]: ./Imgs/Second_deriviative.png
 
 
 
@@ -41,6 +44,16 @@ For Example:
 ![alt text][image7]
 and it returns:
 ![alt text][image6]
+
+### Numerical Calculation of Forward Differences C++
+- Calculating and Plotting a Gaussian Function
+![alt text][image9]
+
+- Calculating the first derivate with the forward difference
+![alt text][image10]
+
+- Calculating the second derivate:
+![alt text][image11]
 
 ### reviewing and comparing data
 ![alt text][image5]
