@@ -13,7 +13,7 @@ In this Repository I store a few of my programms that I wrote for the university
 [image8]:  ./Imgs/random_color.png
 [image9]: ./Imgs/Gaussian_plot.png
 [image10]: ./Imgs/Gradient_plot.png
-[image11]: ./Imgs/Second_deriviative.png
+[image11]: ./Imgs/Second_derivative.png
 
 
 
